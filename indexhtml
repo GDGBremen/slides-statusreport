@@ -1,0 +1,16 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html lang="de">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta charset="UTF-8">
+        <title>Präsentationsauflistung</title>
+		<base target="_blank"> <!-- This amazingness opens all links in a new tab. -->
+    </head>
+    <body>
+		<h2>Einführungspräsentationen der GDG Bremen</h2>
+		
+		<ul>
+			%CONTENT%
+		</ul>
+	</body>
+</html>
