@@ -1,0 +1,284 @@
+<!--
+Google IO 2012/2013 HTML5 Slide Template
+
+Authors: Eric Bidelman <ebidel@gmail.com>
+         Luke Mahé <lukem@google.com>
+
+URL: https://code.google.com/p/io-2012-slides
+-->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>GDG Bremen September 2013</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <!--<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">-->
+  <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+  <!--This one seems to work all the time, but really small on ipad-->
+  <!--<meta name="viewport" content="initial-scale=0.4">-->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <link rel="stylesheet" media="all" href="theme/css/default.css">
+  <link rel="stylesheet" media="only screen and (max-device-width: 480px)" href="theme/css/phone.css">
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->
+  <script data-main="js/slides" src="js/require-1.0.8.min.js"></script>
+</head>
+<body style="opacity: 0">
+
+<slides class="layout-widescreen">
+
+  <slide class="logoslide nobackground">
+    <article class="flexbox vcenter">
+      <span><img id="front_logo" src="images/gdg-bremen/GDG_Bremen_vonJan5g_mitRand_HQ.png"></span>
+    </article>
+  </slide>
+
+  <slide class="title-slide segue nobackground">
+    <aside class="gdbar"><img src="images/gdg-bremen/GDG_Bremen_Q4.png"></aside>
+    <!-- The content of this hgroup is replaced programmatically through the slide_config.json. -->
+    <hgroup class="auto-fadein">
+      <h1 data-config-title><!-- populated from slide_config.json --></h1>
+      <h2 data-config-subtitle><!-- populated from slide_config.json --></h2>
+      <p data-config-presenter><!-- populated from slide_config.json --></p>
+	  <p data-config-contact-dark></p>
+    </hgroup>
+  </slide>
+
+  <slide>
+    <hgroup>
+      <h2>Sponsoren</h2>
+    </hgroup>
+    <article>
+        <div><img class="sponsors" id="best_western_logo" src="images/sponsors/best_western.jpg"></div>
+		<div><img class="sponsors" id="stalhut_logo" src="images/sponsors/jan.jpg"></div>
+		<div><img class="sponsors" id="hackerspace_bremen_logo" src="images/sponsors/hackerspace_bremen.jpg"></div>
+    </article>
+  </slide>
+  
+  <slide>
+    <hgroup>
+      <h2>Veranstaltungen in Bremen</h2>
+	  <h3>1 Tag - 1000 Nummern</h3>
+    </hgroup>
+    <article>
+		<p style="line-height: 1.5;">
+			<i>Erste Bremer Mapping Party</i><br/><br/>
+			<u>Datum:</u> So, 8. September 2013<br/>
+			<u>Zeit:</u> 10:30 - 19:00<br/>
+			<u>Ort:</u> <a href="http://www.hackerspace-bremen.de/locations.php" target="_blank">Hackerspace Bremen e.V.</a><br/>
+			<u>Website:</u> <a href="http://osm-bremen.de/veranstaltungen/1-tag-1000-nummern" target="_blank">osm-bremen.de/veranstaltungen/1-tag-1000-nummern</a>
+		</p>
+	</article>
+  </slide>
+  
+  <slide>
+    <hgroup>
+      <h2>Veranstaltungen in Bremen</h2>
+	  <h3>BremenHack</h3>
+    </hgroup>
+    <article>
+		<p style="line-height: 1.5;">
+			<i>Hackathon nach dem Konzept der <a href="http://kiel.stadthack.de" target="_blank">Kieler Stadthacks</a></i><br/><br/>
+			<u>Datum:</u> 27. - 29. September 2013<br/>
+			<u>Ort:</u> Café und Kreativraum <a href="https://www.facebook.com/noon.ein.zeitraum/info" target="_blank">noon</a><br/>
+			<u>Website:</u> <a href="http://bremen.stadthack.de" target="_blank">bremen.stadthack.de</a>
+		</p>
+	</article>
+  </slide>
+  
+  <slide>
+    <hgroup>
+      <h2>Usergroups in Bremen</h2>
+    </hgroup>
+    <article>
+		<ul class="build">
+			<li><b><a href="http://www.lug-bremen.info" target="_blank">Linux UG Bremen</a></b>
+				<ul>
+					<li>Trifft sich jeden Sonntag 19 Uhr</li>
+					<li>Treffen finden im <a href="http://www.hackerspace-bremen.de/locations.php" target="_blank">Hackerspace Bremen e.V.</a> statt</li>
+				</ul>
+			</li>
+			<li><b><a href="http://cocoaheads.org/de/Bremen" target="_blank">CocoaHeads Bremen</a></b>
+				<ul>
+					<li>Treffen sich immer am 3. Montag im Monat</li>
+					<li><u>Nächstes Treffen:</u> 23. September 2013</li>
+					<li>Treffen finden im <a href="http://www.hackerspace-bremen.de/locations.php" target="_blank">Hackerspace Bremen e.V.</a> statt</li>
+				</ul>
+			</li>
+		</ul>
+	</article>
+  </slide>
+  
+  <slide class="segue nobackground">
+    <aside class="gdbar"><img src="images/gdg-bremen/GDG_Bremen_Q4.png"></aside>
+    <hgroup class="auto-fadein">
+      <h2>Neues aus der Google Welt</h2>
+    </hgroup>
+  </slide>
+  
+  <slide>
+    <hgroup>
+      <h2>#techroundup</h2>
+	  <h3>Android</h3>
+    </hgroup>
+    <article>
+      <ul>
+		<li><a href="http://android-developers.blogspot.de/2013/08/actionbarcompat-and-io-2013-app-source.html" target="_blank">ActionBarCompat in Support Library r18</a></li>
+		<li><a href="http://android-developers.blogspot.de/2013/08/actionbarcompat-and-io-2013-app-source.html" target="_blank">Qullecode der IO 2013 App wurde veröffentlicht</a></li>
+		<li><a href="http://android-developers.blogspot.de/2013/08/google-play-services-32.html" target="_blank">Google Play Services 3.2</a></li>
+		<li><a href="http://tools.android.com/recent/androidstudio026released" target="_blank">Android Studio 0.2.6 erschienen</a></li>
+	  </ul>
+    </article>
+  </slide>
+  
+  <slide>
+    <hgroup>
+      <h2>#techroundup</h2>
+	  <h3>Cloud</h3>
+    </hgroup>
+    <article>
+      <ul>
+		<li><a href="http://googlecloudplatform.blogspot.de/2013/08/google-cloud-platform-enhances-compute_7.html" target="_blank">App Engine 1.8.3 released</a></li>
+		<li><a href="https://plus.google.com/+googlecloudplatform/posts/KW3JvmF6cvH" target="_blank">Load Balancing für die Compute Engine über die Cloud Console</a></li>
+		<li><a href="http://googlecloudplatform.blogspot.de/2013/08/google-cloud-storage-now-provides.html" target="_blank">Serverseitige Verschlüsselung in Cloud Storage</a></li>
+		<li><a href="http://googlecloudplatform.blogspot.de/2013/08/google-cloud-platform-enhances-compute_7.html" target="_blank">Verbesserungen für den Cloud Datastore</a></li>
+		<li><a href="https://plus.google.com/+golang/posts/U2QkSdGjDJC" target="_blank">Go 1.1.2 erschienen</a></li>
+	  </ul>
+    </article>
+  </slide>
+  
+  <slide>
+    <hgroup>
+      <h2>#techroundup</h2>
+	  <h3>Web</h3>
+    </hgroup>
+    <article>
+      <ul>
+		<li><a href="https://developers.google.com/youtube/youtube_subscribe_button" target="_blank">YouTube Subscribe Button</a></li>
+		<li><a href="https://developers.google.com/speed/pagespeed/insights/" target="_blank">PageSpeed Insights Seite</a></li>
+	  </ul>
+    </article>
+  </slide>
+  
+		
+  
+  <slide>
+    <hgroup>
+      <h2><a href="https://play.google.com/store/apps/details?id=org.gdg.frisbee.android">Neue GDG App</a></h2>
+    </hgroup>
+    <article>
+		<iframe width="420" height="250" src="https://youtube.com/embed/7ZeI8rb5l44" frameborder="0" allowfullscreen></iframe>
+    </article>
+  </slide>
+  
+  <slide class="segue nobackground">
+    <aside class="gdbar"><img src="images/gdg-bremen/GDG_Bremen_Q4.png"></aside>
+    <hgroup class="auto-fadein">
+      <h2>Zukünftige GDG Events</h2>
+    </hgroup>
+  </slide>
+  
+  <slide>
+    <hgroup>
+      <h2>Nächster GDG Bremen Stammtisch</h2>
+	  <h3>7. Oktober 2013</h3>
+    </hgroup>
+    <article>
+		<p>
+			<b>Es stehen noch keine Themen fest!</b><br/><br/>
+			
+			Wenn ihr einen Vortrag über ein Google-nahes-Thema habt, würden wir uns sehr freuen. <br/><br/>
+			
+			Jeder Vortrag ist willkommen!
+		</p>
+	</article>
+  </slide>
+  
+  <slide>
+    <hgroup>
+      <h2>DevFest Berlin</h2>
+	  <h3>1. - 3. November 2013</h3>
+    </hgroup>
+    <article>
+		<ul>
+			<li><a href="https://docs.google.com/forms/d/1UzxbttQhS6k9Nomt6Cr38P0_FL1xLH8T6mItFhdFAcw/viewform" target="_blank">Vorträge können bis Ende Oktober eingereicht werden</a></li>
+			<li>Noch keine Anmeldung möglich</li>
+			<li>Neuigkeiten erfahrt ihr auf <a href="https://plus.google.com/116495772997450383126/posts" target="_blank">Google+</a> und von uns!</li>
+		</ul>
+	  <!-- TODO: Vorträge können noch eingereicht werden -->
+	</article>
+  </slide>
+
+  <slide class="segue nobackground">
+    <aside class="gdbar"><img src="images/gdg-bremen/GDG_Bremen_Q4.png"></aside>
+    <hgroup class="auto-fadein">
+      <h2>Heute</h2>
+    </hgroup>
+  </slide>
+
+  <slide>
+    <hgroup>
+      <h2>23. Stammtisch</h2>
+    </hgroup>
+    <article>
+      <ul style="top:30px" class="build">
+		<li style="margin-bottom:30px;">Angular.js von <a href="https://plus.google.com/106733191200400095142">+Malte Legenhausen</a></li>
+		<li style="margin-bottom:30px;">Offene Diskussionsrunde</li>
+      </ul>
+    </article>
+  </slide>
+
+  <slide>
+    <hgroup>
+      <h2>Viel Spaß beim Stammtisch!</h2>
+    </hgroup>
+    <article>
+		<ul style="top:100px;">
+			<li style="margin-bottom:30px;">
+				<a href='http://bremen.gtugs.org'>bremen.gtugs.org</a>
+			</li>
+			<li style="margin-bottom:30px;">
+				<a href='http://bremen-gtug.googlecode.com'>bremen-gtug.googlecode.com</a>
+			</li>
+			<li style="margin-bottom:30px;">
+				<a href='http://gplus.to/bremenGTUG'>+GDG Bremen</a>
+			</li>
+			<li style="margin-bottom:30px;">
+				<a href='http://twitter.com/bremenGTUG'>@GDGBremen</a>
+			</li>
+			<li style="margin-bottom:30px;">
+				<a href='https://www.facebook.com/bremengtug'>GDG Bremen at Facebook</a>
+			</li>
+        </ul>
+			
+		<img src="images/questions.jpg" style="position:absolute; width:350px; top:300px; left:460px">
+    </article>
+  </slide>
+
+  <slide class="logoslide nobackground">
+    <article class="flexbox vcenter">
+      <span><img src="images/gdg-bremen/GDG_Bremen_vonJan5g_mitRand_HQ.png"></span>
+    </article>
+  </slide>
+
+  <slide class="backdrop"></slide>
+
+</slides>
+
+<script>
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-XXXXXXXX-1']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+
+<!--[if IE]>
+  <script src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js"></script>
+  <script>CFInstall.check({mode: 'overlay'});</script>
+<![endif]-->
+</body>
+</html>

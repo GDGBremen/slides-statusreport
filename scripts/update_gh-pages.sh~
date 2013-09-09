@@ -1,4 +1,5 @@
 #!/bin/bash
+content="";
 
 cd ..
 
@@ -6,15 +7,18 @@ cd ..
 Branches[0]="2013_09_02"
 
 #update file structure
-
 for i in ${Branches[@]}
 do
-echo $i
-./scripts/update_slide.sh $i
+scripts/update_slide.sh $i
 done
 
-# creates a new index.html file by using the template indexhtml
-# ./scripts/update_indexhtml.sh Branches
+# generate new index.html
+for j in ${Branches[@]}
+do
+content+="<li><a href=\'$j/template.html\'>$j</a></li>"
+done
+
+sed -e "s;%CONTENT%;$content;" ./indexhtml > ./index.html
 
 #git add -u
 #git add .
