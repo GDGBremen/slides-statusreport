@@ -1,0 +1,129 @@
+/* gdg bremen theme addons */
+
+// Variables 
+
+$slide-top-bottom-padding: 40px;
+$slide-left-right-padding: 60px;
+
+// Color-Variables
+
+$gray-1: #e6e6e6;
+$gray-2: #a9a9a9;
+$gray-3: #797979;
+$gray-4: #515151;
+
+$header-color: $gray-4;
+$background-color: #00933B;
+
+
+// overwritten elements
+
+body {
+  background: $background-color;
+}
+
+.segue {
+  padding: $slide-left-right-padding $slide-left-right-padding * 2;
+
+  h2 {
+    color: $header-color;
+    font-size: 76px;
+	line-height: 1.3;
+  }
+  h3 {
+    color: $gray-1;
+    line-height: 2.8;
+  }
+  hgroup {
+    position: absolute;
+    bottom: 225px;
+  }
+}
+
+a {
+  color: $background-color;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(42, 124, 223, 0.0);
+
+  &:hover {
+    color: black !important;
+  }
+}
+
+// own elements
+
+#front_logo{
+	height: 177px;
+	width:910px;
+}
+
+.sponsors{
+	position: absolute;
+	
+	p {
+		left:60px;
+    }
+	
+	
+}
+
+#best_western_text{
+	top:200px;
+}
+
+#hackerspace_bremen_text{
+	top:200px;
+}
+
+#sponsor_neusta{
+	width: 300px;
+	top: 220px;
+	left: 250px;
+}
+
+#sponsor_neusta_bigger{
+	width: 500px;
+	top: 300px;
+	right: 5px;
+}
+
+#sponsor_enough{
+	width: 200px;
+	top: 305px;
+	left: 325px;
+}
+
+#best_western_logo{
+	width:240px; 
+	top:115px; 
+	left:500px
+}
+
+#hackerspace_bremen_logo{
+	width:250px; 
+	top:315px; 
+	left:640px
+}
+
+#stalhut_text{
+	top:350px;
+}
+
+#stalhut_logo{
+	width:300px; 
+	top:360px; 
+	left:180px
+}
+
+#neusta_text{
+	top:500px;
+}
+
+#neusta_logo{
+	top:510px; 
+	left:530px
+}
+
+#cal_iframe{
+	height:450px;
+}
