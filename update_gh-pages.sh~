@@ -2,7 +2,7 @@
 
 
 # TODO instead get all branches with git branch -r
-Branches=("2013_09_02" "asd")
+Branches=(2013_09_02)
 
 #update file structure
 
