@@ -2,6 +2,7 @@
 
 git checkout gh-pages
 wget https://github.com/GDGBremen/slides-statusreport/archive/$1.zip
+echo pwd
 if [ -d "../slides-statusreport-$1" ]; then
    echo "remove slide folder"
    git rm -r ../slides-statusreport-$1
