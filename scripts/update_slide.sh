@@ -2,10 +2,10 @@
 
 git checkout gh-pages
 wget https://github.com/GDGBremen/slides-statusreport/archive/$1.zip
-if [ -d ../slides-statusreport-$1 ]; then
+if [ -d "../slides-statusreport-$1" ]; then
    echo "remove slide folder"
    git rm -r ../slides-statusreport-$1
 else
-   echo "no folder found"
+   echo "no folder slides-statusreport-"$1" found"
 fi
 unzip $1.zip && rm $1.zip
