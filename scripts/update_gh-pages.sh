@@ -15,7 +15,7 @@ done
 # generate new index.html
 for j in ${Branches[@]}
 do
-content+="<li><a href=\'$j/template.html\'>$j</a></li>"
+content+="<li><a href=\slides-statusreport-'$j/template.html\'>$j</a></li>"
 done
 
 sed -e "s;%CONTENT%;$content;" ./indexhtml > ./index.html
