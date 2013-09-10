@@ -1,4 +1,5 @@
 #!/bin/bash
+content="";
 
 cd ..
 
@@ -19,7 +20,7 @@ done
 
 sed -e "s;%CONTENT%;$content;" ./indexhtml > ./index.html
 
-git add -u
-git add .
-git commit -m "updated gh-pages through update script"
-git push
+#git add -u
+#git add .
+#git commit -m "updated gh-pages through update script"
+#git push
