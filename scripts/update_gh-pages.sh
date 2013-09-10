@@ -5,6 +5,24 @@ cd ..
 
 # TODO instead get all branches with git branch -r
 Branches[0]="2013_09_02"
+index=0
+
+git branch -r > branches.txt
+
+while read line; 
+do 
+replacement=""
+case1="origin/"
+case2=" -> origin/master"
+line=${line/$case1/$replacement}
+line=${line/$case2/$replacement}
+if [[ "$line" != "HEAD" && "$line" != "gh-pages" && "$line" != "master" ]]; then
+  Branches[$index]=$line
+  index+=1  
+fi
+done < branches.txt
+
+rm -rf branches.txt
 
 #update file structure
 for i in ${Branches[@]}
