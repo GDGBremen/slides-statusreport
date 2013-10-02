@@ -1,41 +1,7 @@
 @import "base";
+@import "variables";
 @import "compass/css3/columns";
 @import "compass/css3/user-interface";
-
-$brand-small-icon-size: 30px;
-$social-tags: '#gdg #bremen';
-
-$gray-1: #e6e6e6;
-$gray-2: #a9a9a9;
-$gray-3: #797979;
-$gray-4: #515151;
-
-$brand-blue: rgb(67, 135, 253);
-$brand-blue-secondary: #3c8ef3;
-$brand-blue-secondary2: #2a7cdf;
-
-$brand-red: rgb(244, 74, 63);
-$brand-red-secondary: #e0543e;
-$brand-red-secondary2: #d94d3a;
-
-$brand-yellow: rgb(255, 209, 77);
-$brand-yellow-secondary: #f9cc46;
-$brand-yellow-secondary2: #f6c000;
-
-$brand-green: rgb(13, 168, 97);
-$brand-green-secondary: #00a86d;
-$brand-green-secondary2: #009f5d;
-
-$slide-width: 900px;
-$slide-height: 700px;
-$slide-width-widescreen: 1100px;
-$slide-top-bottom-padding: 40px;
-$slide-left-right-padding: 60px;
-$slide-border-radius: 5px;
-
-$slide-tap-area-width: 100px;
-
-$article-content-top-padding: 45px;
 
 @mixin highlight-color($color: $brand-yellow) {
   -webkit-tap-highlight-color: $color;
@@ -49,8 +15,6 @@ $article-content-top-padding: 45px;
   @include background(linear-gradient(white, white 85%, $gray-1));
   background-color: white;
 }
-
-
 
 /**
  * Theme Styles
@@ -92,7 +56,7 @@ $article-content-top-padding: 45px;
 }
 
 body {
-  background: black;
+  background: $background-color;
 }
 
 slides > slide {
@@ -300,9 +264,9 @@ b {
 }
 
 a {
-  color: $brand-blue-secondary2;
+  color: $background-color;
   text-decoration: none;
-  border-bottom: 1px solid rgba(42, 124, 223, 0.5);
+  border-bottom: 0px solid $background-color;
 
   &:hover {
     color: black !important;
@@ -848,8 +812,9 @@ article.smaller {
   padding: $slide-left-right-padding $slide-left-right-padding * 2;
 
   h2 {
-    color: $gray-1;
-    font-size: 60px;
+    color: $header-color;
+    font-size: 76px;
+	line-height: 1.3;
   }
   h3 {
     color: $gray-1;
@@ -890,7 +855,7 @@ aside.gdbar {
   left: -1px;
   top: 125px;
   @include border-radius(0 10px 10px 0);
-  @include background(linear-gradient(left, #1C6D3D, $gray-1) no-repeat);
+  @include background(linear-gradient(left, $background-color, $gray-1) no-repeat);
   @include background-size(0% 100%);
   @include transition(all 0.5s ease-out 0.5s); /* Better to transition only on background-size, but not sure how to do that with the mixin. */
 
