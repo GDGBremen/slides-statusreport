@@ -1,9 +1,12 @@
+
+
 /* gdg bremen theme addons */
 
 // Variables 
 
 $slide-top-bottom-padding: 40px;
 $slide-left-right-padding: 60px;
+$slide-height: 700px;
 
 // Color-Variables
 
@@ -13,7 +16,15 @@ $gray-3: #797979;
 $gray-4: #515151;
 
 $header-color: $gray-4;
-$background-color: #00933B;
+
+// Google Blue
+//$background-color: #0266C8;
+// Google Red
+$background-color: #F90101;
+// Google Yellow
+//$background-color: #F2B50F;
+// Google Green
+//$background-color: #00933B;
 
 
 // overwritten elements
