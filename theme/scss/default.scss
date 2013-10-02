@@ -1,4 +1,5 @@
 @import "base";
+@import "variables";
 @import "compass/css3/columns";
 @import "compass/css3/user-interface";
 
@@ -890,7 +891,7 @@ aside.gdbar {
   left: -1px;
   top: 125px;
   @include border-radius(0 10px 10px 0);
-  @include background(linear-gradient(left, #1C6D3D, $gray-1) no-repeat);
+  @include background(linear-gradient(left, $background-color, $gray-1) no-repeat);
   @include background-size(0% 100%);
   @include transition(all 0.5s ease-out 0.5s); /* Better to transition only on background-size, but not sure how to do that with the mixin. */
 
