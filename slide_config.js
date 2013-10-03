@@ -15,6 +15,13 @@ var SLIDE_CONFIG = {
   },
 
   // Author information
-  presenters: [{}]
+  presenters: [{
+    // name: 'First Last',
+    // twitter: '@twitterHandle',
+    // mail: 'me@me.com',
+    // company: 'myCompany',
+    // www: 'url',
+    // gplus: 'url'
+  }]
 };
 

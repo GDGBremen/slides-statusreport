@@ -336,6 +336,9 @@ SlideDeck.prototype.loadConfig_ = function(config) {
 
       html = [p.name, p.company].join('<br>');
 
+      var mail = p.mail ? '<span>mail </span><a href="mailto:' + p.mail +
+          '">' + p.mail.replace(/https?:\/\//, '') + '</a>' : '';
+
       var gplus = p.gplus ? '<span>g+</span><a href="' + p.gplus +
           '">' + p.gplus.replace(/https?:\/\//, '') + '</a>' : '';
 
@@ -349,7 +352,7 @@ SlideDeck.prototype.loadConfig_ = function(config) {
       var github = p.github ? '<span>github</span><a href="' + p.github +
           '">' + p.github.replace(/https?:\/\//, '') + '</a>' : '';
 
-      var html2 = [gplus, twitter, www, github].join('<br>');
+      var html2 = [mail, gplus, twitter, www, github].join('<br>');
 
       if (dataConfigContact) {
         dataConfigContact.innerHTML = html2;
