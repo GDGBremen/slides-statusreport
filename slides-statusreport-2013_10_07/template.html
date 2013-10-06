@@ -1,0 +1,375 @@
+<!--
+Slides were created by GDG Bremen Members. 
+
+It uses the Google IO 2013 HTML5 Slides:
+
+Google IO 2012/2013 HTML5 Slide Template
+
+Authors: Eric Bidelman <ebidel@gmail.com>
+         Luke Mahé <lukem@google.com>
+
+URL: https://code.google.com/p/io-2012-slides
+-->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>GDG Bremen Oktober 2013</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <link rel="stylesheet" media="all" href="theme/css/default.css">
+  <link rel="stylesheet" media="only screen and (max-device-width: 480px)" href="theme/css/phone.css">
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->
+  <script data-main="js/slides" src="js/require-2.1.8.min.js"></script>
+</head>
+<body style="opacity: 0">
+
+<slides class="layout-widescreen">
+
+  <slide class="logoslide nobackground">
+    <article class="flexbox vcenter">
+      <span><img id="front_logo" src="images/gdg-bremen/GDG_Bremen_vonJan5g_mitRand_HQ.png"></span>
+    </article>
+  </slide>
+
+  <slide class="title-slide segue nobackground">
+    <aside class="gdbar"><img src="images/gdg-bremen/GDG_Bremen_Q4.png"></aside>
+    <!-- The content of this hgroup is replaced programmatically through the slide_config.json. -->
+    <hgroup class="auto-fadein">
+      <h1 data-config-title><!-- populated from slide_config.json --></h1>
+      <h2 data-config-subtitle><!-- populated from slide_config.json --></h2>
+      <p data-config-presenter><!-- populated from slide_config.json --></p>
+	  <p data-config-contact-dark></p>
+    </hgroup>
+  </slide>
+
+  <slide>
+    <hgroup>
+      <h2>Hinweis</h2>
+    </hgroup>
+    <article>
+        <p>
+			<b>Bei dieser Veranstaltung werden Foto-, Ton- und Videoaufnahmen gemacht und im Internet veröffentlicht!</b>
+		</p>
+		<p>
+			Mit der Teilnahme erklärt ihr euch damit einverstanden!
+		</p>
+		<div>
+		<!-- Icons are from https://www.iconfinder.com/ -->
+		<img style="width:200px;margin-left:50px;margin-right:50px;" src="images/photo.png"/>
+		<img style="width:200px;" src="images/micro.png"/>
+		<img style="width:200px;margin-left:50px;" src="images/videocam.png"/>
+		</div>
+    </article>
+  </slide>
+  
+  <slide>
+    <hgroup>
+      <h2>Sponsoren</h2>
+    </hgroup>
+    <article>
+        <div><img class="sponsors" id="best_western_logo" src="images/sponsors/best_western.jpg"></div>
+		<div><img class="sponsors" id="stalhut_logo" src="images/sponsors/jan.jpg"></div>
+		<div><img class="sponsors" id="hackerspace_bremen_logo" src="images/sponsors/hackerspace_bremen.jpg"></div>
+    </article>
+  </slide>
+  
+  <!-- OPTIONAL -->
+  <!--<slide>
+    <hgroup>
+      <h2>Veranstaltungen in Bremen</h2>
+	  <h3>Veranstaltung X</h3>
+    </hgroup>
+    <article>
+		<p style="line-height: 1.5;">
+			<i>Super Veranstaltung</i><br/><br/>
+			<u>Datum:</u> So, 45. Dezember 20xx<br/>
+			<u>Zeit:</u> ...<br/>
+			<u>Ort:</u> <a href="http://www.hackerspace-bremen.de/locations.php" >Hackerspace Bremen e.V.</a><br/>
+			<u>Website:</u> <a href="http://example.org" >der Veranstaltung</a>
+		</p>
+	</article>
+  </slide>-->
+  
+  <!-- Zusammenfassung über anstehende Veranstaltungen der Usergroups -->
+  <slide>
+    <hgroup>
+      <h2>Usergroups in Bremen</h2>
+	  <h3>Im Hackerspace Bremen e.V.</h3>
+    </hgroup>
+    <article>
+		<p>
+		Alle folgenden Treffen finden im <a href="http://www.hackerspace-bremen.de/locations.php" >Hackerspace Bremen e.V.</a> statt!
+		</p>
+		<ul class="build">
+			<li><b><a href="http://www.lug-bremen.info" >Linux UG Bremen</a></b>
+				<ul>
+					<li>Trifft sich jeden Sonntag 19 Uhr</li>
+				</ul>
+			</li>
+			<li><b><a href="http://cocoaheads.org/de/Bremen" >CocoaHeads Bremen</a></b>
+				<ul>
+					<li>Treffen sich immer am 3. Montag im Monat</li>
+					<li><u>Nächstes Treffen:</u> 21. Oktober 2013</li>
+				</ul>
+			</li>
+			<li><b><a href="http://osm-bremen.de/">OSM Bremen</a></b>
+				<ul>
+					<li>Treffen sich immer am 4. Montag im Monat</li>
+					<li><u>Nächstes Treffen:</u> 28. Oktober 2013</li>
+				</ul>
+			</li>
+		</ul>
+	</article>
+  </slide>
+  
+  <slide>
+    <hgroup>
+      <h2>Usergroups in Bremen</h2>
+	  <h3>Sonstige</h3>
+    </hgroup>
+    <article>
+		<ul class="build">
+			<li><b><a href="http://www.jugbremen.de/" >Java Usergroup Bremen</a></b>
+				<ul>
+					<li>Treffen sich immer am 3. Dienstag oder Mittwoch im Monat</li>
+					<li><u>Nächstes Treffen:</u> Mi, 16. Oktober 2013</li>
+				</ul>
+			</li>
+			<li><b><a href="http://webmontag-bremen.de" >Webmontag Bremen</a></b>
+				<ul>
+					<li><u>Nächstes Treffen:</u> 21. Oktober 2013</li>
+					<li>Treffen finden in der <a href="http://www.alte-schnapsfabrik.de/" >alten Schnapsfabrik </a> statt</li>
+				</ul>
+			</li>	
+		</ul>
+	</article>
+  </slide>
+  
+  <slide class="segue nobackground">
+    <aside class="gdbar"><img src="images/gdg-bremen/GDG_Bremen_Q4.png"></aside>
+    <hgroup class="auto-fadein">
+      <h2>Neues aus der Google Welt</h2>
+    </hgroup>
+  </slide>
+  
+  <slide>
+    <hgroup>
+      <h2>#techroundup</h2>
+	  <h3>Android</h3>
+    </hgroup>
+    <article>
+      <ul>
+	    <li><a href="http://www.android.com/kitkat/">Android 4.4 (KitKat) wurde veröffentlicht</a></li>
+		<li><a href="http://android-developers.blogspot.de/2013/10/improved-app-insight-by-linking-google.html">Verknüpfung von Analytics mit Developer Konsole</a></li>
+		<li><a href="RenderScript in the Android Support Library">RenderScript nun Teil der Android Support Library</a></li>
+	  </ul>
+    </article>
+  </slide>
+  
+  <slide>
+    <hgroup>
+      <h2>#techroundup</h2>
+	  <h3>Cloud</h3>
+    </hgroup>
+    <article>
+      <ul>
+		<li><a href="http://googlecloudplatform.blogspot.de/2013/09/app-engine-185-released-featuring-search-api-and-php-updates.html">Google App Engine 1.8.5 wurde veröffentlicht</a></li>
+		<li><a href="https://developers.google.com/appengine/docs/push-to-deploy">Git Push-to-deploy für GAE (Python and PHP)</a></li>
+		<li><a href="http://googledevelopers.blogspot.de/2013/09/google-bigquery-goes-real-time-with.html">Neue Funktionalitäten für Big Query</a></li>
+		<li><a href="https://cloud.google.com/resources">Google Cloud Resources - Technische Artikel zu Cloud Diensten</a></li>
+		<li><a href="https://cloud.google.com/solutions/hadoop">Hadoop kann auch auf Google Cloud Platform genutzt werden</a></li>
+	  </ul>
+    </article>
+  </slide>
+  
+  <slide>
+	<hgroup>
+		<h2>Google Cloud Developer Challenge 2013</h2>
+	</hgroup>
+	<article>
+		<iframe width="420" height="250" src="http://www.google.com/events/gcdc2013/" frameborder="0" allowfullscreen></iframe>
+	</article>
+  </slide>
+  
+  <slide>
+    <hgroup>
+      <h2>#techroundup</h2>
+	  <h3>Web</h3>
+    </hgroup>
+    <article>
+      <ul>
+		<li><a href="http://googlechromereleases.blogspot.de/2013/10/stable-channel-update.html">Chrome Aktualisierung auf Version 30 (Desktop, Android, iOS)</a></li>
+		<li><a href="https://developers.google.com/picker/">Google Picker API nun auf API Console verfügbar</a></li>
+		<li><a href="https://plus.google.com/100132233764003563318/posts/FG8UjUqVu4b">Google Apps können nun URLs bestimmen, auf die sie reagieren wollen</a></li>
+		<li><a href="http://www.google.com/webdesigner/">'Webdesigner' zum Erstellen von interaktiven HTML5-basierten Designs und bewegten Grafiken</a></li>
+	  </ul>
+    </article>
+  </slide>
+  
+  <slide>
+    <hgroup>
+      <h2>#techroundup</h2>
+	  <h3>Sonstiges</h3>
+    </hgroup>
+    <article>
+      <ul>
+		<li><a href="http://techcrunch.com/2013/09/09/google-plus-embeds-and-authorship/">Einbetten von Google+ Posts auf Webseiten</a></li>
+		<li><a href="http://googledrive.blogspot.de/2013/09/four-new-ways-to-customize-your-google.html">Vier Erweiterungen für Google Forms</a>
+			<ul>
+				<li>Fortschrittsbalken</li>
+				<li>Validierung</li>
+				<li>Einbindung von YouTube Videos</li>
+				<li>Benutzerdefinierte Meldungen</li>
+			</ul>
+		</li>
+		<li><a href="http://youtu.be/Lm4aKZ0NpFM">Erweiterte Funktionalitäten zur Bearbeitung von Fotos auf Google+</a></li>
+		<li><a href="http://googledevelopers.blogspot.de/2013/10/new-analytics-apis-for-large-companies.html">Neue Analytics APIs für große Firmen</a></li>
+	  </ul>
+    </article>
+  </slide>
+  
+  <slide>
+    <hgroup>
+      <h2>Statusreports der GDG Bremen</h2>
+    </hgroup>
+    <article>
+		<ul>
+			<li><a href="http://gdgbremen.github.io/slides-statusreport/">Einführungspräsentationen der GDG Bremen</a> nun in eigenem <a href="https://github.com/GDGBremen/slides-statusreport">Github Repository</a></li>
+			<li>Generierung einer Auflistung aus vorhandenen Branches
+				<ul>
+					<li>Nutzung eines sh-Batches</li>
+					<li>Generierung der index.html</li>
+					<li>Erweiterung des Branches gh-pages</li>
+				</ul>
+			</li>
+		</ul>
+    </article>
+  </slide>
+  
+  <slide class="segue nobackground">
+    <aside class="gdbar"><img src="images/gdg-bremen/GDG_Bremen_Q4.png"></aside>
+    <hgroup class="auto-fadein">
+      <h2>Zukünftige GDG Events</h2>
+    </hgroup>
+  </slide>
+  
+  <slide>
+    <hgroup>
+      <h2>Nächster GDG Bremen Stammtisch</h2>
+	  <h3>4. November 2013</h3>
+    </hgroup>
+    <article>
+		<ul>
+			<li>'Android ruling the big screen - a look at ChromeCast, Miracast and Anymote' von <a href="https://plus.google.com/117981764820200252568">+Matthias Friedrich</a></li>
+		</ul>
+		
+		<p>
+			<b>Weitere Vorträge sind willkommen!</b><br/><br/>
+			
+			Wenn ihr einen Vortrag über ein Google-nahes-Thema habt, würden wir uns sehr freuen. <br/><br/>
+		</p>
+	</article>
+  </slide>
+  
+  <slide>
+    <hgroup>
+      <h2>DevFest Berlin</h2>
+	  <h3>1. - 3. November 2013</h3>
+    </hgroup>
+    <article>
+		<ul>
+			<li><a href="https://docs.google.com/forms/d/1UzxbttQhS6k9Nomt6Cr38P0_FL1xLH8T6mItFhdFAcw/viewform" >Vorträge können bis Ende Oktober eingereicht werden</a></li>
+			<li>Noch keine Anmeldung möglich</li>
+			<li>Neuigkeiten erfahrt ihr auf <a href="https://plus.google.com/116495772997450383126/posts" >Google+</a> und von uns!</li>
+		</ul>
+	</article>
+  </slide>
+
+  <slide class="segue nobackground">
+    <aside class="gdbar"><img src="images/gdg-bremen/GDG_Bremen_Q4.png"></aside>
+    <hgroup class="auto-fadein">
+      <h2>Heute</h2>
+    </hgroup>
+  </slide>
+
+  <slide>
+    <hgroup>
+      <h2>24. Stammtisch</h2>
+    </hgroup>
+    <article>
+      <ul style="top:30px" class="build">
+		<li style="margin-bottom:30px;">'Volley: Fast and Easy Networking for Android?' von <a href="https://plus.google.com/113062950789010266684">+Sven Nobis</a> </li>
+		<li style="margin-bottom:30px;">'Plaudern aus dem Nähkästchen' von <a href="https://plus.google.com/117981764820200252568">+Matthias Friedrich</a> und <a href="https://plus.google.com/105644643668348314832">+Steve Liedtke</a> 
+			<ul>
+				<li>Bericht von Google Cloud Tour</li>
+				<li>Google Compute Engine Einblick</li>
+				<li>BigQuery Einblick</li>
+				<li>Android Studio Einblick</li>
+				<li>Maven, Guice, Objectify auf GAE</li>
+			</ul>
+		</li>
+		<li style="margin-bottom:30px;">Offene Diskussionsrunde</li>
+		<li style="margin-bottom:30px;"><b>22:50 Uhr</b> Auf ins Kino? Prakti.com gucken</li>
+      </ul>
+    </article>
+  </slide>
+
+  <slide>
+    <hgroup>
+      <h2>Viel Spaß beim Stammtisch!</h2>
+    </hgroup>
+    <article>
+		<ul style="top:100px;">
+			<li style="margin-bottom:30px;">
+				<a href='http://bremen.gtugs.org'>bremen.gtugs.org</a>
+			</li>
+			<li style="margin-bottom:30px;">
+				<a href='http://bremen-gtug.googlecode.com'>Code Repository auf Google Code</a>
+			</li>
+			<li style="margin-bottom:30px;">
+				<a href='https://github.com/GDGBremen'>Code Repositories auf Github</a>
+			</li>
+			<li style="margin-bottom:30px;">
+				<a href='http://gplus.to/bremenGTUG'>+GDG Bremen</a>
+			</li>
+			<li style="margin-bottom:30px;">
+				<a href='http://twitter.com/bremenGTUG'>@GDGBremen</a>
+			</li>
+			<li style="margin-bottom:30px;">
+				<a href='https://www.facebook.com/bremengtug'>GDG Bremen bei Facebook</a>
+			</li>
+        </ul>
+			
+		<img src="images/questions.jpg" style="position:absolute; width:350px; top:300px; right:100px">
+    </article>
+  </slide>
+
+  <slide class="logoslide nobackground">
+    <article class="flexbox vcenter">
+      <span><img src="images/gdg-bremen/GDG_Bremen_vonJan5g_mitRand_HQ.png"></span>
+    </article>
+  </slide>
+
+  <slide class="backdrop"></slide>
+
+</slides>
+
+<script>
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-XXXXXXXX-1']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+
+<!--[if IE]>
+  <script src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js"></script>
+  <script>CFInstall.check({mode: 'overlay'});</script>
+<![endif]-->
+</body>
+</html>
