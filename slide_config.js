@@ -1,6 +1,6 @@
 var SLIDE_CONFIG = {
   settings: {
-    title: 'GDG Bremen MONAT 2013',
+    title: 'GDG Bremen November 2013',
     subtitle: "Stammtisch",
     useBuilds: true, // Default: true. False will turn off slide animation builds.
     usePrettify: true, // Default: true
