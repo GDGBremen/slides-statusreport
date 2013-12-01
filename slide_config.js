@@ -1,6 +1,6 @@
 var SLIDE_CONFIG = {
   settings: {
-    title: 'GDG Bremen MONAT 2013',
+    title: 'GDG Bremen Dezember 2013',
     subtitle: "Stammtisch",
     useBuilds: true, // Default: true. False will turn off slide animation builds.
     usePrettify: true, // Default: true
@@ -16,12 +16,11 @@ var SLIDE_CONFIG = {
 
   // Author information
   presenters: [{
-    // name: 'First Last',
-    // twitter: '@twitterHandle',
-    // mail: 'me@me.com',
-    // company: 'myCompany',
-    // www: 'url',
-    // gplus: 'url'
+    name: 'Matthias Friedrich',
+    twitter: '@peacei',
+    mail: 'mtthsfrdrch@gmail.com',
+    company: 'greenrobot',
+    gplus: 'google.com/+MatthiasFriedrich'
   }]
 };
 
